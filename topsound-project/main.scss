@@ -60,23 +60,24 @@ main {
                     width: 100px;
                 }
             }
-            // .lamp{
-            //     p{
-            //         &:last-of-type{
-            //             width: 300px
-            //         }
-            //     }
-            // }
-            // .microphone{
-            //     &:last-of-type{
-            //         width: 300px
-            //     }
-            // }
-            // .headphones{
-            //     &:last-of-type{
-            //         width: 300px
-            //     }
-            // }
+            .lamp{
+                p{
+                    &:last-of-type{
+                        width: 300px;
+                    }
+                }
+            }
+            .microphone{
+                &:last-of-type{
+                    width: 300px;
+                }
+            }
+            .headphones{
+                &:last-of-type{
+                    width: 300px;
+                    background-color: black;
+                }
+            }
         }
     }
 }

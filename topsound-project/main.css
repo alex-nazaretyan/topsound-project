@@ -69,3 +69,16 @@ main .what-we-offer .what-we-offer__content {
 main .what-we-offer .what-we-offer__content div img {
   width: 100px;
 }
+
+main .what-we-offer .what-we-offer__content .lamp p:last-of-type {
+  width: 300px;
+}
+
+main .what-we-offer .what-we-offer__content .microphone:last-of-type {
+  width: 300px;
+}
+
+main .what-we-offer .what-we-offer__content .headphones:last-of-type {
+  width: 300px;
+  background-color: black;
+}
