@@ -1,0 +1,82 @@
+header {
+    background-image: url("images/header-background.jpg");
+    width: 100%;
+    height: 93vh;
+    background-repeat: no-repeat;
+    .header-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        ul {
+            display: flex;
+            li {
+                padding: 0 25px;
+                color: white;
+                font-weight: lighter;
+                i.fa-angle-down {
+                    padding-left: 5px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .header-content {
+        h1 {
+            color: white;
+            width: 628px;
+            text-align: center;
+            position: relative;
+            top: 262px;
+            left: 655px;
+            font-size: 60px;
+        }
+    }
+}
+main {
+    .what-we-offer {
+        background-color: #f5f6fa;
+        .what-we-offer__heading {
+            text-align: center;
+            padding-top: 40px;
+            .top-arrow {
+                position: relative;
+                top: 9px;
+                left: 33px;
+            }
+            h2 {
+                font-size: 39px;
+            }
+            .bottom-arrow {
+                position: relative;
+                right: 37px;
+            }
+        }
+        .what-we-offer__content{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            div{
+                img{
+                    width: 100px;
+                }
+            }
+            // .lamp{
+            //     p{
+            //         &:last-of-type{
+            //             width: 300px
+            //         }
+            //     }
+            // }
+            // .microphone{
+            //     &:last-of-type{
+            //         width: 300px
+            //     }
+            // }
+            // .headphones{
+            //     &:last-of-type{
+            //         width: 300px
+            //     }
+            // }
+        }
+    }
+}
