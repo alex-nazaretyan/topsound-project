@@ -51,31 +51,57 @@ main {
                 right: 37px;
             }
         }
-        .what-we-offer__content{
-            display: flex;
+        .what-we-offer__content {
+            display: grid;
+            grid-template-columns: 350px 350px 350px;
             justify-content: center;
+            align-items: center;
             text-align: center;
-            div{
-                img{
+            div {
+                img {
                     width: 100px;
                 }
             }
-            .lamp{
-                p{
-                    &:last-of-type{
-                        width: 300px;
+            .lamp {
+                .first-image {
+                    width: 80px;
+                }
+                p {
+                    &:first-of-type {
+                        font-size: 20px;
+                        padding: 15px 0;
+                        font-weight: bold;
+                    }
+                    &:last-of-type {
+                        color: gray;
+                        font-size: 19px;
                     }
                 }
             }
-            .microphone{
-                &:last-of-type{
-                    width: 300px;
+            .microphone {
+                p {
+                    &:first-of-type {
+                        font-size: 20px;
+                        padding: 15px 0;
+                        font-weight: bold;
+                    }
+                    &:last-of-type {
+                        color: gray;
+                        font-size: 19px;
+                    }
                 }
             }
-            .headphones{
-                &:last-of-type{
-                    width: 300px;
-                    background-color: black;
+            .headphones {
+                p {
+                    &:first-of-type {
+                        font-size: 20px;
+                        padding: 15px 0;
+                        font-weight: bold;
+                    }
+                    &:last-of-type {
+                        color: gray;
+                        font-size: 19px;
+                    }
                 }
             }
         }

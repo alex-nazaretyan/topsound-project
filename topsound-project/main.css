@@ -61,8 +61,10 @@ main .what-we-offer .what-we-offer__heading .bottom-arrow {
 }
 
 main .what-we-offer .what-we-offer__content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -70,15 +72,39 @@ main .what-we-offer .what-we-offer__content div img {
   width: 100px;
 }
 
+main .what-we-offer .what-we-offer__content .lamp .first-image {
+  width: 80px;
+}
+
+main .what-we-offer .what-we-offer__content .lamp p:first-of-type {
+  font-size: 20px;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
 main .what-we-offer .what-we-offer__content .lamp p:last-of-type {
-  width: 300px;
+  color: gray;
+  font-size: 19px;
 }
 
-main .what-we-offer .what-we-offer__content .microphone:last-of-type {
-  width: 300px;
+main .what-we-offer .what-we-offer__content .microphone p:first-of-type {
+  font-size: 20px;
+  padding: 15px 0;
+  font-weight: bold;
 }
 
-main .what-we-offer .what-we-offer__content .headphones:last-of-type {
-  width: 300px;
-  background-color: black;
+main .what-we-offer .what-we-offer__content .microphone p:last-of-type {
+  color: gray;
+  font-size: 19px;
+}
+
+main .what-we-offer .what-we-offer__content .headphones p:first-of-type {
+  font-size: 20px;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+main .what-we-offer .what-we-offer__content .headphones p:last-of-type {
+  color: gray;
+  font-size: 19px;
 }
