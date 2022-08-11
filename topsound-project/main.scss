@@ -35,10 +35,11 @@ header {
 main {
     .what-we-offer {
         background-color: #f5f6fa;
+        padding-bottom: 80px;
         .what-we-offer__heading {
             text-align: center;
             padding-top: 40px;
-            .top-arrow {
+            .offer-top-arrow {
                 position: relative;
                 top: 9px;
                 left: 33px;
@@ -46,7 +47,7 @@ main {
             h2 {
                 font-size: 39px;
             }
-            .bottom-arrow {
+            .offer-bottom-arrow {
                 position: relative;
                 right: 37px;
             }
@@ -54,6 +55,7 @@ main {
         .what-we-offer__content {
             display: grid;
             grid-template-columns: 350px 350px 350px;
+            grid-gap: 80px;
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -102,6 +104,45 @@ main {
                         color: gray;
                         font-size: 19px;
                     }
+                }
+            }
+        }
+    }
+    .services {
+        padding: 40px 0 100px 0;
+        .services__heading {
+            text-align: center;
+            .services-top-arrow {
+                position: relative;
+                top: 9px;
+                left: 33px;
+            }
+            h2 {
+                font-size: 39px;
+            }
+            .services-bottom-arrow {
+                position: relative;
+                right: 37px;
+            }
+        }
+        p {
+            width: 700px;
+            margin: 0 auto;
+            text-align: center;
+            color: gray;
+        }
+        .services-gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 300px);
+            justify-content: center;
+            margin-top: 40px;
+            div {
+                p {
+                    text-align: left;
+                    font-weight: bold;
+                    color: black;
+                    padding-top: 10px;
+                    font-size: 18px;
                 }
             }
         }

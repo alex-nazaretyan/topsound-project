@@ -1,0 +1,9 @@
+section {
+  text-align: center;
+}
+
+section img {
+  width: 500px;
+  height: 500px;
+  animation: images-animation 2s ease-in;
+}

@@ -38,6 +38,7 @@ header .header-content h1 {
 
 main .what-we-offer {
   background-color: #f5f6fa;
+  padding-bottom: 80px;
 }
 
 main .what-we-offer .what-we-offer__heading {
@@ -45,7 +46,7 @@ main .what-we-offer .what-we-offer__heading {
   padding-top: 40px;
 }
 
-main .what-we-offer .what-we-offer__heading .top-arrow {
+main .what-we-offer .what-we-offer__heading .offer-top-arrow {
   position: relative;
   top: 9px;
   left: 33px;
@@ -55,7 +56,7 @@ main .what-we-offer .what-we-offer__heading h2 {
   font-size: 39px;
 }
 
-main .what-we-offer .what-we-offer__heading .bottom-arrow {
+main .what-we-offer .what-we-offer__heading .offer-bottom-arrow {
   position: relative;
   right: 37px;
 }
@@ -63,6 +64,7 @@ main .what-we-offer .what-we-offer__heading .bottom-arrow {
 main .what-we-offer .what-we-offer__content {
   display: grid;
   grid-template-columns: 350px 350px 350px;
+  grid-gap: 80px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -107,4 +109,49 @@ main .what-we-offer .what-we-offer__content .headphones p:first-of-type {
 main .what-we-offer .what-we-offer__content .headphones p:last-of-type {
   color: gray;
   font-size: 19px;
+}
+
+main .services {
+  padding: 40px 0 100px 0;
+}
+
+main .services .services__heading {
+  text-align: center;
+}
+
+main .services .services__heading .services-top-arrow {
+  position: relative;
+  top: 9px;
+  left: 33px;
+}
+
+main .services .services__heading h2 {
+  font-size: 39px;
+}
+
+main .services .services__heading .services-bottom-arrow {
+  position: relative;
+  right: 37px;
+}
+
+main .services p {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: gray;
+}
+
+main .services .services-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: center;
+  margin-top: 40px;
+}
+
+main .services .services-gallery div p {
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  padding-top: 10px;
+  font-size: 18px;
 }
