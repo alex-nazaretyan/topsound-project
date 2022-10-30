@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   background-image: url("images/header-background.jpg");
   width: 100%;
@@ -154,4 +155,151 @@ main .services .services-gallery div p {
   color: black;
   padding-top: 10px;
   font-size: 18px;
+}
+
+main .about-us {
+  background-image: url("images/about-us-background.png");
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  text-align: center;
+  padding-top: 200px;
+}
+
+main .about-us h2 {
+  color: white;
+  font-size: 39px;
+}
+
+main .about-us p {
+  color: white;
+  width: 480px;
+  margin: 0 auto;
+}
+
+main .our-team .our-team__heading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+main .our-team .our-team__heading .top-arrow {
+  position: relative;
+  left: 30px;
+}
+
+main .our-team .our-team__heading h2 {
+  font-size: 39px;
+}
+
+main .our-team .our-team__heading .bottom-arrow {
+  position: relative;
+  right: 29px;
+}
+
+main .our-team .team-pictures {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: center;
+  margin-top: 50px;
+}
+
+main .our-team .team-pictures p:first-of-type {
+  color: #4854ed;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+main .our-team .team-pictures p:last-of-type {
+  color: #b3b6c2;
+  padding-top: 15px;
+}
+
+main .our-team .btn {
+  text-align: center;
+  margin: 70px 0 120px 0;
+}
+
+main .our-team .btn button {
+  background: linear-gradient(#317aed, #f654b1, #8f32a2);
+  padding: 10px 29px;
+  border: none;
+  color: white;
+  font-weight: lighter;
+}
+
+main .quality-tracks {
+  padding: 50px 0;
+  background-color: #29293a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .quality-tracks .quality-tracks__content {
+  padding-right: 50px;
+}
+
+main .quality-tracks .quality-tracks__content p {
+  font-size: 20px;
+  color: gray;
+  font-weight: lighter;
+}
+
+main .quality-tracks .quality-tracks__content p span {
+  font-weight: bold;
+  color: white;
+}
+
+main .quality-tracks .quality-tracks__button button {
+  background: linear-gradient(#317aed, #f654b1, #8f32a2);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+main .latest-blog-posts .latest-blog-posts__heading {
+  text-align: center;
+  padding-top: 50px;
+}
+
+main .latest-blog-posts .latest-blog-posts__heading .latest-blog-posts-top-arrow {
+  position: relative;
+  left: 40px;
+}
+
+main .latest-blog-posts .latest-blog-posts__heading h2 {
+  font-size: 39px;
+}
+
+main .latest-blog-posts .latest-blog-posts__heading .latest-blog-posts-bottom-arrow {
+  position: relative;
+  right: 24px;
+}
+
+main .latest-blog-posts .latest-blog-posts__content {
+  display: flex;
+}
+
+main .latest-blog-posts .latest-blog-posts__content .content .twenty-nine-april-wrapper {
+  display: flex;
+}
+
+main .latest-blog-posts .latest-blog-posts__content .content .twenty-ninе-april-wrapper__content {
+  margin-left: 20px;
+}
+
+main .latest-blog-posts .latest-blog-posts__content .content .twenty-ninе-april-wrapper__content h3 {
+  width: 175px;
+  padding-bottom: 33px;
+  color: #4854ED;
+}
+
+main .latest-blog-posts .latest-blog-posts__content .content .twenty-ninе-april-wrapper__content p {
+  color: gray;
+}
+
+main .latest-blog-posts .latest-blog-posts__content .content .twenty-ninе-april-wrapper__content p span {
+  margin-left: 20px;
 }
