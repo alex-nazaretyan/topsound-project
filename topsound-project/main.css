@@ -280,10 +280,19 @@ main .latest-blog-posts .latest-blog-posts__heading .latest-blog-posts-bottom-ar
 
 main .latest-blog-posts .latest-blog-posts__content {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+main .latest-blog-posts .latest-blog-posts__content .content {
+  position: relative;
+  right: 220px;
 }
 
 main .latest-blog-posts .latest-blog-posts__content .content .twenty-nine-april-wrapper {
   display: flex;
+  padding-bottom: 40px;
 }
 
 main .latest-blog-posts .latest-blog-posts__content .content .twenty-ninе-april-wrapper__content {
@@ -293,7 +302,7 @@ main .latest-blog-posts .latest-blog-posts__content .content .twenty-ninе-april
 main .latest-blog-posts .latest-blog-posts__content .content .twenty-ninе-april-wrapper__content h3 {
   width: 175px;
   padding-bottom: 33px;
-  color: #4854ED;
+  color: #4854ed;
 }
 
 main .latest-blog-posts .latest-blog-posts__content .content .twenty-ninе-april-wrapper__content p {
@@ -302,4 +311,26 @@ main .latest-blog-posts .latest-blog-posts__content .content .twenty-ninе-april
 
 main .latest-blog-posts .latest-blog-posts__content .content .twenty-ninе-april-wrapper__content p span {
   margin-left: 20px;
+}
+
+main .latest-blog-posts .btn-view-all {
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  background: linear-gradient(#317aed, #f654b1, #8f32a2);
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+footer {
+  background-color: #29293A;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 20px 0;
+}
+
+footer p {
+  color: gray;
 }
